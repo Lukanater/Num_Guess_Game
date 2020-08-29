@@ -74,16 +74,16 @@ def begin_game():
             attempt +=1
             
             
-            break
+            
             for play_again in play_again:
                 play_again = input("Do you want to play again? Yes or No?")
                 if play_again == "Yes"
                     "This should loop back to the guess prompt."
                     guess == True
                     
-                elif play_again == "No"
+                else:
                     print("Thanks for playing GUESS A NUMBER!!! It was swell having you on this show!")
-
+                    break
 #Yes = "Yes"
 #No = "No"
 #Now the game ends. There will be later, an option if the player would like to play again!

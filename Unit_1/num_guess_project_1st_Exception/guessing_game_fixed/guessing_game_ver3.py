@@ -82,6 +82,7 @@ def begin_game():
                     guess == True
                     
                 else:
+                    guess == False
                     print("Thanks for playing GUESS A NUMBER!!! It was swell having you on this show!")
                     break
 #Yes = "Yes"

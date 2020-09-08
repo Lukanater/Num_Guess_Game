@@ -109,6 +109,6 @@ def begin_game():
                       break      
             
                   else:
-                    except TypeError:
+                    
                         print("Sorry, You can only choose between yes or no!")
 begin_game()

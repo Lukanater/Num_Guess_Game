@@ -62,12 +62,11 @@ def begin_game():
         except ValueError:
             print("Please enter a number, and a valid one at that.")
             continue
-            #raise TypeError("Sorry! You can only type numbers, you goof!")
-            #print (guess)
+            
         
         else:
             print(guess)
-        #raise TypeError("Sorry! You can only type numbers, you goof!")  
+         
         if guess < 0 or guess > 20:
               print("This number is out of range! Please enter a number between 0 and 20!")
               continue
@@ -87,9 +86,6 @@ def begin_game():
         else:
             print("You win! This is how many attempts it took you to guess the right number: {}".format(attempt))
             attempt +=1
-            #print("Thanks for playing GUESS A NUMBER!!! It was swell having you on this show!")
-            play_again = input("Do you want to play again? Yes or No?")
-            #play_again = "yes"
             while True:
                   try:
                      play_again = input("Do you want to play again? Yes or No?")
@@ -112,7 +108,7 @@ def begin_game():
                       guess == True
                       break      
             
-                else:
+                  else:
                     except TypeError:
-                    print("Sorry, You can only choose between yes or no!")
+                        print("Sorry, You can only choose between yes or no!")
 begin_game()
